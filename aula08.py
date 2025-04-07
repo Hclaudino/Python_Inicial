@@ -1,0 +1,11 @@
+nome = str(input("Diga o seu nome: "))
+sobrenome = str(input('Diga o seu sobrenome: '))
+idade = int (input('Diga qual a sua idade: '))
+ano = int(input('Diga qual o ano que você nasceu: '))
+altura = float(input('Diga qual a sua altura: '))
+maior = idade >= 18
+print(f"Seu nome completo é {nome} {sobrenome}")
+print(f"Você possui: {idade}")
+print(f"Você nasceu em : {ano}")
+print(f"Você é maior de idade: {maior}")
+print(f"Você tem  {altura} de altura. ")
